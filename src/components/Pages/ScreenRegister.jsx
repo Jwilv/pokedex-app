@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ScreenRegister() {
+export  function ScreenRegister() {
   return (
     <div>ScreenRegister</div>
   )
