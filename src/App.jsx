@@ -8,13 +8,11 @@ function App() {
 
   return (
     <BrowserRouter>
-    
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="/Login" element={<ScreenLogin/>}/>
         <Route path="/Register" element={<ScreenRegister/>}/>
       </Routes>
-
     </BrowserRouter>
   )
 }
