@@ -1,0 +1,19 @@
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #E87B31, #C9501A);
+}
+
+
+.container{
+    margin-top: 100px;
+}
+
+.register{
+    padding-bottom: 20px;
+}
+
+.bg-register{
+    background-image: url(../../assets/squirtle.jpg);
+    background-position: center center;
+    width: 10px;
+}

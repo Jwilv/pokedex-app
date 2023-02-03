@@ -7,7 +7,7 @@ export default function Home() {
     <div className='body'>
       <div className="container w-75 bg-primary rounded ">
         <div className="row align-items-stretch">
-          <div className="col bg d-none d-lg-block col-md ">
+          <div className="col bg-register d-none d-lg-block col-md ">
           </div>
           <div className="col bg-white">
             <h2 className='fw-bol text-center py-5'>Registrarse</h2>

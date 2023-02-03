@@ -12,7 +12,7 @@ body{
     padding-bottom: 20px;
 }
 
-.bg{
+.bg-login{
     background-image: url(../../assets/pikachu.jpg);
     background-position: center center;
     width: 10px;
