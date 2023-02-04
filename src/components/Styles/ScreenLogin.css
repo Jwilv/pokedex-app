@@ -1,19 +1,29 @@
-body{
+.body_login{
+    margin-top: -100px;
+    padding-top: 100px;
+    margin-bottom: -100px;
+    padding-bottom: 133px;
     background: #ffe259;
-    background: linear-gradient(to right, #E87B31, #C9501A);
+    background: linear-gradient(to right, #FEE78F, #CA6F14);
 }
 
 
-.container{
+.contenedor_login{
     margin-top: 100px;
 }
 
-.register{
+.abajo_login{
     padding-bottom: 20px;
 }
 
+.pokebola{
+    width: 20px;
+    margin-right: 10px;
+}
+
 .bg-login{
-    background-image: url(../../assets/pikachu.jpg);
+    background-image: url(../../assets/pikachu2.jpg);
     background-position: center center;
-    width: 10px;
+    background-repeat : no-repeat;
+   background-size : 800px;
 }

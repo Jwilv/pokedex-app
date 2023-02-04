@@ -1,11 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../Styles/ScreenLogin.css";
+import pokebola from "../../assets/pokebola.png";
 
 export default function Home() {
   return (
-    <div className='body'>
-      <div className="container w-75 bg-primary rounded ">
+    <div className='body_login'>
+      <div className="contenedor_login container w-75 bg-primary rounded ">
         <div className="row align-items-stretch">
           <div className="col bg-login d-none d-lg-block col-md ">
           </div>
@@ -22,9 +23,9 @@ export default function Home() {
                 <input type="password" className='form-control' name='password' />
               </div>
               <div className="d-grid">
-                <button type='submit' className='btn btn-primary'>Iniciar sesion</button>
+                <button type='submit' className='btn btn-primary'><img src={pokebola} className='pokebola' alt="" />Iniciar sesion</button>
               </div>
-              <div className="register my-3">
+              <div className="abajo-login my-3">
                 <span>No tenes cuenta? <a href='#'>Registrarme</a></span>
               </div>
             </form>

@@ -1,11 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../Styles/ScreenRegister.css";
+import pokebolaAbierta from "../../assets/pokebola-abierta.png";
 
 export default function Home() {
   return (
-    <div className='body'>
-      <div className="container w-75 bg-primary rounded ">
+    <div className='body_register'>
+      <div className="contenedor_register container w-75 bg-primary rounded ">
         <div className="row align-items-stretch">
           <div className="col bg-register d-none d-lg-block col-md ">
           </div>
@@ -30,9 +31,9 @@ export default function Home() {
                 <input type="password" className='form-control' name='password' />
               </div>
               <div className="d-grid">
-                <button type='submit' className='btn btn-primary'>Registrarme</button>
+                <button type='submit' className='btn btn-primary'><img src={pokebolaAbierta} className='pokebola_abierta' alt="" />Registrarme</button>
               </div>
-              <div className="register my-3">
+              <div className="abajo_register my-3">
                 <span>Ya tenes cuenta? <a href='#'>Iniciar Sesión</a></span>
               </div>
             </form>

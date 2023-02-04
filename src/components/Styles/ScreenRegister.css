@@ -1,19 +1,27 @@
-body{
+.body_register{
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 12px;
     background: #ffe259;
-    background: linear-gradient(to right, #E87B31, #C9501A);
+    background: linear-gradient(to right, #A6DCAE, #32544D);
 }
 
 
-.container{
-    margin-top: 100px;
+.contenedor_register{
+    margin-top: 13px;
 }
 
-.register{
+.abajo_register{
     padding-bottom: 20px;
 }
 
+.pokebola_abierta{
+    width: 20px;
+    margin-right: 10px;
+}
+
 .bg-register{
-    background-image: url(../../assets/squirtle.jpg);
+    background-image: url(../../assets/growlithe.jpg);
     background-position: center center;
     width: 10px;
 }
