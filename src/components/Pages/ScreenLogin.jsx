@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../Styles/ScreenLogin.css";
 import pokebola from "../../assets/pokebola.png";
 
-export default function Home() {
+export default function ScreenLogin() {
   return (
     <div className='body_login'>
       <div className="contenedor_login container w-75 bg-primary rounded ">

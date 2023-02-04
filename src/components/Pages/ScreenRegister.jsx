@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../Styles/ScreenRegister.css";
 import pokebolaAbierta from "../../assets/pokebola-abierta.png";
 
-export default function Home() {
+export default function ScreenRegister() {
   return (
     <div className='body_register'>
       <div className="contenedor_register container w-75 bg-primary rounded ">

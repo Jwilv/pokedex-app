@@ -1,26 +1,33 @@
-.body_register{
-    margin-top: -20px;
+.body_register {
+    overflow: hidden;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 12px;
     background: #ffe259;
-    background: linear-gradient(to right, #A6DCAE, #32544D);
+    background: linear-gradient(to right, #A6DCAE, #32544D); */
 }
 
 
-.contenedor_register{
+.contenedor_register {
     margin-top: 13px;
 }
 
-.abajo_register{
+.abajo_register {
     padding-bottom: 20px;
 }
 
-.pokebola_abierta{
+.pokebola_abierta {
     width: 20px;
     margin-right: 10px;
 }
 
-.bg-register{
+.bg-register {
     background-image: url(../../assets/growlithe.jpg);
     background-position: center center;
     width: 10px;
