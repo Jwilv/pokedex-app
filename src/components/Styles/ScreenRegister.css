@@ -28,6 +28,7 @@
 }
 
 .bg-register {
+    max-width: 600px;
     background-image: url(../../assets/sonorlax.jpg);
     background-position: center center;
     width: 10px;
